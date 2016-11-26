@@ -15,15 +15,33 @@
 
 
     <ImageButton
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="97dp"
+        android:layout_height="97dp"
         app:srcCompat="@drawable/io_anthony_liekens_01"
-        android:layout_x="152dp"
-        android:layout_y="15dp"
-        android:id="@+id/imageButton"
+        android:layout_x="45dp"
+        android:layout_y="46dp"
+        android:id="@+id/powerBtn"
         android:scaleType="fitXY"
         android:adjustViewBounds="false"
         android:contentDescription="Power"
         android:visibility="visible"
         android:onClick="ClickBtn" />
+
+    <ImageButton
+    android:layout_width="77dp"
+    android:layout_height="75dp"
+    app:srcCompat="@drawable/tempuparrow1"
+    android:layout_x="212dp"
+    android:layout_y="20dp"
+    android:id="@+id/tempUpBtn"
+    android:scaleType="fitXY" />
+
+    <ImageButton
+        android:layout_width="77dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/tempdownarrow"
+        android:layout_x="212dp"
+        android:layout_y="120dp"
+        android:id="@+id/tempDownBtn"
+        android:scaleType="fitXY" />
 </AbsoluteLayout>
